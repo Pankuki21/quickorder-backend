@@ -1,0 +1,6 @@
+CREATE TABLE notificacion (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    cliente_id BIGINT NOT NULL,
+    mensaje VARCHAR(200) NOT NULL,
+    estado VARCHAR(50) NOT NULL
+);

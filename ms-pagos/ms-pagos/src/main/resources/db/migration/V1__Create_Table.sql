@@ -1,0 +1,6 @@
+CREATE TABLE pago (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    pedido_id BIGINT NOT NULL,
+    monto DECIMAL(10,2) NOT NULL,
+    estado VARCHAR(50) NOT NULL
+);

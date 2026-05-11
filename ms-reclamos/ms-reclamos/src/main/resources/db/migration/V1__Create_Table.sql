@@ -1,0 +1,6 @@
+CREATE TABLE reclamo (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    pedido_id BIGINT NOT NULL,
+    descripcion VARCHAR(200) NOT NULL,
+    estado VARCHAR(50) NOT NULL
+);

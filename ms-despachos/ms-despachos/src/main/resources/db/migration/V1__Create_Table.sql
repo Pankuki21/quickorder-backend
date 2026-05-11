@@ -1,0 +1,6 @@
+CREATE TABLE despacho (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    pedido_id BIGINT NOT NULL,
+    direccion VARCHAR(150) NOT NULL,
+    estado VARCHAR(50) NOT NULL
+);
