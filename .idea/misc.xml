@@ -4,16 +4,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/ms-pagos/ms-pagos/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-pedidos/ms-pedidos/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-clientes/ms-clientes/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-reclamos/ms-reclamos/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-usuarios/ms-usuarios/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-despachos/ms-despachos/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-productos/ms-productos/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-inventario/ms-inventario/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-usuarios/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-reclamos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-productos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-pedidos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-pagos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-notificaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-inventario/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-detalle-pedido/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-despachos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-clientes/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
   </component>

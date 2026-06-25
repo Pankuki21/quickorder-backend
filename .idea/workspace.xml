@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2c409d5-0ebf-4ad3-8db8-f0322293afa3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quickorder-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quickorder-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/MsClientesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/dto/ClienteDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/java/com/quickorder/ms_clientes/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/main/resources/db/migration/V2__Insert_Clientes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-clientes/ms-clientes/src/test/java/com/quickorder/ms_clientes/MsClientesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/MsDespachosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/controller/DespachoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/dto/DespachoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/model/Despacho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/repository/DespachoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/java/com/quickorder/ms_despachos/service/DespachoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/main/resources/db/migration/V2__Insert_Despachos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-despachos/ms-despachos/src/test/java/com/quickorder/ms_despachos/MsDespachosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/MsDetallePedidoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/controller/DetallePedidoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/dto/DetallePedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/model/DetallePedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/repository/DetallePedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/java/com/quickorder/ms_detalle_pedido/service/DetallePedidoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/main/resources/db/migration/V2__Insert_DetallePedido.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-detalle-pedido/ms-detalle-pedido/src/test/java/com/quickorder/ms_detalle_pedido/MsDetallePedidoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/.idea/ms-inventario.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/MsInventarioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/controller/InventarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/dto/InventarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/model/Inventario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/repository/InventarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/java/com/quickorder/ms_inventario/service/InventarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/main/resources/db/migration/V2__Insert_Inventario.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inventario/ms-inventario/src/test/java/com/quickorder/ms_inventario/MsInventarioApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/MsNotificacionesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/controller/NotificacionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/dto/NotificacionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/model/Notificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/repository/NotificacionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/java/com/quickorder/ms_notificaciones/service/NotificacionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/main/resources/db/migration/V2__Insert_Notificacion.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/ms-notificaciones/src/test/java/com/quickorder/ms_notificaciones/MsNotificacionesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/MsPagosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/controller/PagoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/dto/PagoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/model/Pago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/repository/PagoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/java/com/quickorder/ms_pagos/service/PagoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/main/resources/db/migration/V2__Insert_Pagos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pagos/ms-pagos/src/test/java/com/quickorder/ms_pagos/MsPagosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/MsPedidosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/controller/PedidoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/dto/PedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/model/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/repository/PedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/java/com/quickorder/ms_pedidos/service/PedidoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/main/resources/db/migration/V2__Insert_Pedidos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedidos/ms-pedidos/src/test/java/com/quickorder/ms_pedidos/MsPedidosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/MsProductosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/dto/ProductoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/java/com/quickorder/ms_productos/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/main/resources/db/migration/V2__Insert_Productos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-productos/ms-productos/src/test/java/com/quickorder/ms_productos/MsProductosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/MsReclamosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/controller/ReclamoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/dto/ReclamoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/model/Reclamo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/repository/ReclamoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/java/com/quickorder/ms_reclamos/service/ReclamoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/main/resources/db/migration/V2__Insert_Reclamos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reclamos/ms-reclamos/src/test/java/com/quickorder/ms_reclamos/MsReclamosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/MsUsuariosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/dto/UsuarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/java/com/quickorder/ms_usuarios/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/resources/db/migration/V1__Create_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/main/resources/db/migration/V2__Insert_Usuarios.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/ms-usuarios/src/test/java/com/quickorder/ms_usuarios/MsUsuariosApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3Fbh1UZtHUDTUxZL3yq9Ond7LBI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.api-gateway [clean].executor": "Run",
+    "Maven.api-gateway [package].executor": "Run",
+    "Maven.eureka-server [clean].executor": "Run",
+    "Maven.eureka-server [package].executor": "Run",
+    "Maven.ms-clientes [package].executor": "Run",
+    "Maven.ms-despachos [package].executor": "Run",
+    "Maven.ms-detalle-pedido [package].executor": "Run",
+    "Maven.ms-inventario [package].executor": "Run",
+    "Maven.ms-notificaciones [package].executor": "Run",
+    "Maven.ms-pagos [package].executor": "Run",
+    "Maven.ms-pedidos [package].executor": "Run",
+    "Maven.ms-productos [package].executor": "Run",
+    "Maven.ms-reclamos [package].executor": "Run",
+    "Maven.ms-usuarios [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/franc/OneDrive/Documents/Duoc UC/3er SEMESTRE/Desarrollo Full Stack I/EA2/quickorder-backend",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\OneDrive\Documents\Duoc UC\3er SEMESTRE\Desarrollo Full Stack I\EA2\quickorder-backend" />
+      <recent name="C:\Users\franc\OneDrive\Documents\Duoc UC\3er SEMESTRE\Desarrollo Full Stack I\EA2\quickorder-backend\eureka-server" />
+      <recent name="C:\Users\franc\OneDrive\Documents\Duoc UC\3er SEMESTRE\Desarrollo Full Stack I\EA2\quickorder-backend\api-gateway" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c409d5-0ebf-4ad3-8db8-f0322293afa3" name="Changes" comment="" />
+      <created>1778488447149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778488447149</updated>
+    </task>
+    <servers />
+  </component>
+</project>

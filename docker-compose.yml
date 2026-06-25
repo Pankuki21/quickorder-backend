@@ -1,0 +1,276 @@
+services:
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+
+  api-gateway:
+    build: ./api-gateway
+    depends_on:
+      - eureka-server
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "9000:9000"
+
+  mysql-clientes:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_clientes
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-clientes-data:/var/lib/mysql
+
+  mysql-productos:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_productos
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-productos-data:/var/lib/mysql
+
+  mysql-inventario:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_inventario
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-inventario-data:/var/lib/mysql
+
+  mysql-pedidos:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_pedidos
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-pedidos-data:/var/lib/mysql
+
+  mysql-detalle-pedido:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_detalle_pedido
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-detalle-pedido-data:/var/lib/mysql
+
+  mysql-pagos:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_pagos
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-pagos-data:/var/lib/mysql
+
+  mysql-despachos:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_despachos
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-despachos-data:/var/lib/mysql
+
+  mysql-usuarios:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_usuarios
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-usuarios-data:/var/lib/mysql
+
+  mysql-reclamos:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_reclamos
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-reclamos-data:/var/lib/mysql
+
+  mysql-notificaciones:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Online.123
+      MYSQL_DATABASE: quickorder_notificaciones
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-notificaciones-data:/var/lib/mysql
+
+  ms-clientes:
+    build: ./ms-clientes
+    depends_on:
+      mysql-clientes:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8081:8081"
+
+  ms-productos:
+    build: ./ms-productos
+    depends_on:
+      mysql-productos:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8082:8082"
+
+  ms-inventario:
+    build: ./ms-inventario
+    depends_on:
+      mysql-inventario:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8083:8083"
+
+  ms-pedidos:
+    build: ./ms-pedidos
+    depends_on:
+      mysql-pedidos:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8084:8084"
+
+  ms-detalle-pedido:
+    build: ./ms-detalle-pedido
+    depends_on:
+      mysql-detalle-pedido:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8085:8085"
+
+  ms-pagos:
+    build: ./ms-pagos
+    depends_on:
+      mysql-pagos:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8086:8086"
+
+  ms-despachos:
+    build: ./ms-despachos
+    depends_on:
+      mysql-despachos:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8087:8087"
+
+  ms-usuarios:
+    build: ./ms-usuarios
+    depends_on:
+      mysql-usuarios:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8088:8088"
+
+  ms-reclamos:
+    build: ./ms-reclamos
+    depends_on:
+       mysql-reclamos:
+          condition: service_healthy
+       eureka-server:
+          condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8089:8089"
+
+  ms-notificaciones:
+    build: ./ms-notificaciones
+    depends_on:
+      mysql-notificaciones:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8090:8090"
+
+volumes:
+  mysql-clientes-data:
+  mysql-productos-data:
+  mysql-inventario-data:
+  mysql-pedidos-data:
+  mysql-detalle-pedido-data:
+  mysql-pagos-data:
+  mysql-despachos-data:
+  mysql-usuarios-data:
+  mysql-reclamos-data:
+  mysql-notificaciones-data:

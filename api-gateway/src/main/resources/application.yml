@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: api-gateway
+
+  profiles:
+    active: dev
+
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+    gateway:
+      routes:
+        - id: ms-clientes
+          uri: lb://MS-CLIENTES
+          predicates:
+            - Path=/clientes/**
+
+        - id: ms-productos
+          uri: lb://MS-PRODUCTOS
+          predicates:
+            - Path=/productos/**
+
+        - id: ms-inventario
+          uri: lb://MS-INVENTARIO
+          predicates:
+            - Path=/inventario/**
+
+        - id: ms-pedidos
+          uri: lb://MS-PEDIDOS
+          predicates:
+            - Path=/pedidos/**
+
+        - id: ms-detalle-pedido
+          uri: lb://MS-DETALLE-PEDIDO
+          predicates:
+            - Path=/detalle-pedido/**
+
+        - id: ms-pagos
+          uri: lb://MS-PAGOS
+          predicates:
+            - Path=/pagos/**
+
+        - id: ms-despachos
+          uri: lb://MS-DESPACHOS
+          predicates:
+            - Path=/despachos/**
+
+        - id: ms-usuarios
+          uri: lb://MS-USUARIOS
+          predicates:
+            - Path=/usuarios/**
+
+        - id: ms-reclamos
+          uri: lb://MS-RECLAMOS
+          predicates:
+            - Path=/reclamos/**
+
+        - id: ms-notificaciones
+          uri: lb://MS-NOTIFICACIONES
+          predicates:
+            - Path=/notificaciones/**
